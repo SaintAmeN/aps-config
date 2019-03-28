@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: http://cyview@aps-drones.com:7990/bitbucket/scm/cyv/microservice-configuration.git
+          username: pawel.reclaw@gmail.com
+          password: v303FFyVcfgFPyIJ7APxsu3
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8010/eureka/

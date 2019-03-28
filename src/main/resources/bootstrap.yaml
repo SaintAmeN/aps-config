@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: aps-config-server
+server:
+  port: 8002

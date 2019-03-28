@@ -3,7 +3,7 @@ spring:
     config:
       server:
         git:
-          uri: http://cyview@aps-drones.com:7990/bitbucket/scm/cyv/microservice-configuration.git
+          uri: https://github.com/SaintAmeN/aps-configuration.git
           username: pawel.reclaw@gmail.com
           password: v303FFyVcfgFPyIJ7APxsu3
 eureka:
